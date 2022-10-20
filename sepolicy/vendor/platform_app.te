@@ -1,5 +1,7 @@
 # FPS Info
 allow platform_app sysfs_fps:file { getattr open read };
+allow platform_app sysfs_graphics:file r_file_perms;
+allow platform_app sysfs_graphics:dir search;
 
 # System Info
 allow platform_app vendor_sysfs_battery_supply:dir search;
