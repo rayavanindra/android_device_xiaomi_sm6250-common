@@ -493,8 +493,8 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
-vendor/etc/cne/mwqem.conf
-vendor/etc/cne/profileMwqem.xml
+vendor/etc/cne/profileSlm.xml
+vendor/etc/cne/slm.conf
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml
@@ -1294,6 +1294,7 @@ vendor/etc/qdcm_calib_data_nt36675_video_mode_dsi_tianma_panel.xml
 -system_ext/app/DeviceInfo/DeviceInfo.apk
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
+system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
@@ -1546,7 +1547,7 @@ vendor/firmware/novatek_ts_tianma_mp.bin
 # Vibrator
 vendor/bin/vibrator_calibration
 vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp_1.bin
+vendor/firmware/aw8624_rtp.bin
 vendor/firmware/drv2624.bin
 vendor/firmware/drv2624.rtp
 vendor/firmware/Drv2624Date.ini
